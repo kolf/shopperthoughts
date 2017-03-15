@@ -1,3 +1,21 @@
+@import "./_variables";
+@import "../components/bootstrap-sass/assets/stylesheets/_bootstrap";
+@import "./_bootswatch";
+
 body{
-    background-color: #f5f5f5;
+    // background-color: #f0f0f0;
+    font-family: 'Helvetica, Tahoma, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", STXihei, STHeiti, Heiti, SimSun, sans-serif'
+}
+
+.site{
+    &-topbar{
+        background-color: #333;
+        line-height: 36px;
+        color: #b0b0b0
+    }
+}
+
+.banner{
+    background: $brand-primary url(../img/64c89c6e.wave.png) left bottom no-repeat;
+    height: 700px;
 }
