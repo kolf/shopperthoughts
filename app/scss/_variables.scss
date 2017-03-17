@@ -27,7 +27,7 @@ $brand-danger:          #e51c23 !default;
 //## Settings for some of the most global styles.
 
 //** Background color for `<body>`.
-$body-bg:               #fff !default;
+$body-bg:               #f0f0f0 !default;
 //** Global text color on `<body>`.
 $text-color:            $gray !default;
 
@@ -36,7 +36,7 @@ $link-color:            $brand-primary !default;
 //** Link hover color set via `darken()` function.
 $link-hover-color:      darken($link-color, 15%) !default;
 //** Link hover decoration.
-$link-hover-decoration: underline !default;
+$link-hover-decoration: none !default;
 
 
 //== Typography
@@ -325,7 +325,7 @@ $screen-md-max:              ($screen-lg-min - 1) !default;
 //** Number of columns in the grid.
 $grid-columns:              12 !default;
 //** Padding between columns. Gets divided in half for the left and right.
-$grid-gutter-width:         30px !default;
+$grid-gutter-width:         20px !default;
 // Navbar collapse
 //** Point at which the navbar becomes uncollapsed.
 $grid-float-breakpoint:     $screen-sm-min !default;
@@ -421,7 +421,7 @@ $navbar-inverse-toggle-border-color:        transparent !default;
 
 //=== Shared nav styles
 $nav-link-padding:                          10px 20px !default;
-$nav-link-hover-bg:                         $gray-lighter !default;
+$nav-link-hover-bg:                         transparent !default;
 
 $nav-disabled-link-color:                   $gray-light !default;
 $nav-disabled-link-hover-color:             $gray-light !default;
@@ -743,18 +743,18 @@ $panel-danger-heading-bg:     $brand-danger !default;
 //##
 
 //** Padding around the thumbnail image
-$thumbnail-padding:           4px !default;
+$thumbnail-padding:           0 !default;
 //** Thumbnail background color
-$thumbnail-bg:                $body-bg !default;
+$thumbnail-bg:                #fff !default;
 //** Thumbnail border color
-$thumbnail-border:            #ddd !default;
+$thumbnail-border:            $body-bg !default;
 //** Thumbnail border radius
 $thumbnail-border-radius:     $border-radius-base !default;
 
 //** Custom text color for thumbnail captions
 $thumbnail-caption-color:     $text-color !default;
 //** Padding around the thumbnail caption
-$thumbnail-caption-padding:   9px !default;
+$thumbnail-caption-padding:   15px !default;
 
 
 //== Wells

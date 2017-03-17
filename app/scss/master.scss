@@ -7,15 +7,49 @@ body{
     font-family: 'Helvetica, Tahoma, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", STXihei, STHeiti, Heiti, SimSun, sans-serif'
 }
 
+img{
+    max-width: 100%
+}
+
+.bg{
+    &-gray{
+        background-color: $kbd-bg
+    }
+    &-white{
+        background-color: $kbd-color
+    }
+}
+
 .site{
     &-topbar{
         background-color: #333;
-        line-height: 36px;
-        color: #b0b0b0
+        // line-height: 36px;
+        // color: #b0b0b0
+    }
+    &-footer{
+        background-color: #333;
+        height: 300px;
+        padding: 15px 0;
+        margin-top: 50px;
     }
 }
 
 .banner{
-    background: $brand-primary url(../img/64c89c6e.wave.png) left bottom no-repeat;
-    height: 700px;
+    // background: $brand-primary url(../img/64c89c6e.wave.png) left bottom no-repeat;
+    background-color: #333;
+    height: 500px;
+}
+
+.feature{
+    &-title{
+        padding: 20px 0 30px 0;
+        .more{
+            font-size: 16px;
+            padding-top: 10px;
+            float: right;
+        }
+    }
+    &-box{
+        // padding: 0 15px;
+    }
 }
