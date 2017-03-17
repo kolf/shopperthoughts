@@ -1060,7 +1060,7 @@ body {
   font-size: 13px;
   line-height: 1.846;
   color: #666;
-  background-color: #f0f0f0; }
+  background-color: #f5f5f5; }
 
 input,
 button,
@@ -1098,7 +1098,7 @@ img {
   padding: 0;
   line-height: 1.846;
   background-color: #fff;
-  border: 1px solid #f0f0f0;
+  border: 1px solid #f5f5f5;
   border-radius: 2px;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -2058,7 +2058,7 @@ th {
   .table > tbody + tbody {
     border-top: 2px solid #ddd; }
   .table .table {
-    background-color: #f0f0f0; }
+    background-color: #f5f5f5; }
 
 .table-condensed > thead > tr > th,
 .table-condensed > thead > tr > td,
@@ -3639,7 +3639,7 @@ tbody.collapse.in {
     .nav-tabs-justified > .active > a, .nav-tabs.nav-justified > .active > a,
     .nav-tabs-justified > .active > a:hover, .nav-tabs.nav-justified > .active > a:hover,
     .nav-tabs-justified > .active > a:focus, .nav-tabs.nav-justified > .active > a:focus {
-      border-bottom-color: #f0f0f0; } }
+      border-bottom-color: #f5f5f5; } }
 
 .tab-content > .tab-pane {
   display: none; }
@@ -4321,7 +4321,7 @@ a.badge:hover, a.badge:focus {
   margin-bottom: 23px;
   line-height: 1.846;
   background-color: #fff;
-  border: 1px solid #f0f0f0;
+  border: 1px solid #f5f5f5;
   border-radius: 2px;
   -webkit-transition: border 0.2s ease-in-out;
   -o-transition: border 0.2s ease-in-out;
@@ -6607,21 +6607,37 @@ img {
 .bg-white {
   background-color: #fff; }
 
+.text-strong {
+  font-weight: 700;
+  font-size: 18px;
+  color: #e83828;
+  position: relative;
+  top: 1px;
+  padding: 0 4px; }
+
+.no-gap {
+  margin: 0; }
+  .no-gap.row > [class*="col-"] {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: -1px; }
+  .no-gap.row .thumbnail {
+    margin-bottom: -1px; }
+
 .site-topbar {
   background-color: #333; }
 
 .site-footer {
-  background-color: #333;
-  height: 300px;
-  padding: 15px 0;
+  background-color: #fff;
+  padding: 30px 0;
   margin-top: 50px; }
 
 .banner {
-  background-color: #333;
-  height: 500px; }
+  background: #e83828 url(../img/banner.png) center no-repeat;
+  height: 700px; }
 
 .feature-title {
-  padding: 20px 0 30px 0; }
+  padding: 20px 0 20px 0; }
   .feature-title .more {
     font-size: 16px;
     padding-top: 10px;

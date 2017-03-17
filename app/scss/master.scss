@@ -20,6 +20,30 @@ img{
     }
 }
 
+.text{
+    &-strong{
+        font-weight: 700;
+        font-size: 18px;
+        color: $brand-primary;
+        position: relative;
+        top:1px;
+        padding: 0 4px;
+    }
+}
+
+.no-gap{
+    &.row{
+        &>[class*="col-"]{
+            padding-left: 0;
+            padding-right: 0;
+            margin-left: -1px;
+        }
+        .thumbnail {
+            margin-bottom: -1px;
+        }
+    }
+    margin: 0
+}
 .site{
     &-topbar{
         background-color: #333;
@@ -27,22 +51,23 @@ img{
         // color: #b0b0b0
     }
     &-footer{
-        background-color: #333;
-        height: 300px;
-        padding: 15px 0;
+        background-color: #fff;
+        // border-top: 1px solid #eee;
+        // height: 300px;
+        padding: 30px 0;
         margin-top: 50px;
     }
 }
 
 .banner{
-    // background: $brand-primary url(../img/64c89c6e.wave.png) left bottom no-repeat;
-    background-color: #333;
-    height: 500px;
+    background: $brand-primary url(../img/banner.png) center no-repeat;
+    // background-color: #333;
+    height: 700px;
 }
 
 .feature{
     &-title{
-        padding: 20px 0 30px 0;
+        padding: 20px 0 20px 0;
         .more{
             font-size: 16px;
             padding-top: 10px;
